@@ -23,7 +23,7 @@ class Havelsine {
     
     degrees_to_radians(degrees)
     {
-      var pi = Math.PI;
+      const pi = Math.PI;
       return degrees * (pi/180);
     }
     
